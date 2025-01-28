@@ -1,0 +1,24 @@
+[Executed at: Tue Jan 28 3:38:21 PST 2025]
+
+============================================================
+ArrayList.java successfully compiled.
+============================================================
+Tests Passed: 19 / 23
+
+[Test Failure: addToFront] [-0.43] : This addToFront test was inconclusive due to: java.lang.ArrayIndexOutOfBoundsException: Index 18 out of bounds for length 18
+Here is the stack trace to help identify the error in your code:
+	at ArrayList.addToFront, line number: 57 
+
+[Test Failure: addToBack] [-0.43] : Unexpected content after adding once to the back, triggering first resize.
+	Expected : [0a, 1a, 2a, 3a, 4a, 5a, 6a, 7a, 8a, 9a, null, null, null, null, null, null, null, null]
+	Actual : [null, null, null, null, null, null, null, null, null, 9a, null, null, null, null, null, null, null, null] 
+
+[Test Failure: addToBack] [-0.43] : This addToBack test was inconclusive due to: java.lang.ArrayIndexOutOfBoundsException: Index 18 out of bounds for length 18
+Here is the stack trace to help identify the error in your code:
+	at ArrayList.addToBack, line number: 86 
+
+[Test Failure: validSize] [-0.43] : Size variable could not be validated for the following method(s) due to early test failure(s): addToBack, addToFront. 
+
+
+Score: 8.26 / 10.0
+============================================================
