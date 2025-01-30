@@ -44,8 +44,8 @@ public class ArrayList<T> {
             throw new IllegalArgumentException("Data cannot be null.");
         }
 
-        if (size == INITIAL_CAPACITY) {
-            T[] biggerArray = (T[]) new Object[INITIAL_CAPACITY * 2];
+        if (size == backingArray.length) {
+            T[] biggerArray = (T[]) new Object[backingArray.length * 2];
             for (int i = 0; i < size; i++) {
                 biggerArray[i + 1] = backingArray[i];
             }
@@ -53,7 +53,7 @@ public class ArrayList<T> {
             backingArray = biggerArray;
             size++;
         } else {
-            for (int i = size - 1; i > 0; i--) {
+            for (int i = size; i > 0; i--) {
                 backingArray[i] = backingArray[i - 1];
             }
             backingArray[0] = data;
@@ -74,10 +74,10 @@ public class ArrayList<T> {
             throw new IllegalArgumentException("Data cannot be null.");
         }
 
-        if (size == INITIAL_CAPACITY) {
-            T[] biggerArray = (T[]) new Object[INITIAL_CAPACITY * 2];
+        if (size == backingArray.length) {
+            T[] biggerArray = (T[]) new Object[backingArray.length * 2];
             for (int i = 0; i < size; i++) {
-                biggerArray[i] = biggerArray[i];
+                biggerArray[i] = backingArray[i];
             }
             biggerArray[size] = data;
             backingArray = biggerArray;
