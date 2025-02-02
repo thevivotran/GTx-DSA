@@ -1,0 +1,12 @@
+[Executed at: Sun Feb 2 0:44:31 PST 2025]
+
+============================================================
+SinglyLinkedList.java successfully compiled.
+============================================================
+Tests Passed: 16 / 17
+
+[Test Failure: validSize] [-0.59] : Size variable did not update correctly when testing the following method(s): removeFromBack, removeFromFront, addToBack, addToFront.  
+
+
+Score: 9.41 / 10.0
+============================================================
