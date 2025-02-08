@@ -1,0 +1,16 @@
+[Executed at: Sat Feb 8 0:58:44 PST 2025]
+
+============================================================
+ArrayQueue.java successfully compiled.
+============================================================
+Tests Passed: 19 / 21
+
+[Test Failure: enqueue] [-0.48] : Unexpected content after enqueueing one element and triggering first resize, with front at index 3.
+	Expected : [0a, 1a, 2a, 3a, 4a, 5a, 6a, 7a, 8a, 9a, null, null, null, null, null, null, null, null]
+	Actual : [0a, 1a, 2a, 3a, 4a, 5a, 6a, 7a, 8a, null, null, null, 9a, null, null, null, null, null] 
+
+[Test Failure: validFront] [-0.48] : Front variable did not update correctly when testing the following method(s): enqueue.  
+
+
+Score: 9.05 / 10.0
+============================================================
