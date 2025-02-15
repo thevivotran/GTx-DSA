@@ -1,0 +1,48 @@
+[Executed at: Sat Feb 15 1:46:55 PST 2025]
+
+============================================================
+Traversals.java successfully compiled.
+============================================================
+Tests Passed: 0 / 7
+
+[Test Failure: preorder] [-1.43] : This preorder test was inconclusive due to: java.lang.NullPointerException
+Here is the stack trace to help identify the error in your code:
+	at Traversals.preorder, line number: 31 
+
+[Test Failure: preorder] [-1.43] : This preorder test was inconclusive due to: java.lang.NullPointerException
+Here is the stack trace to help identify the error in your code:
+	at Traversals.preorder, line number: 31
+	at Traversals.preorder, line number: 33
+	at Traversals.preorder, line number: 33
+	at Traversals.preorder, line number: 33
+	at Traversals.preorder, line number: 33 
+
+[Test Failure: inorder] [-1.43] : This inorder test was inconclusive due to: java.lang.NullPointerException
+Here is the stack trace to help identify the error in your code:
+	at Traversals.inorder, line number: 56 
+
+[Test Failure: inorder] [-1.43] : This inorder test was inconclusive due to: java.lang.NullPointerException
+Here is the stack trace to help identify the error in your code:
+	at Traversals.preorder, line number: 31
+	at Traversals.preorder, line number: 33
+	at Traversals.preorder, line number: 33
+	at Traversals.preorder, line number: 33
+	at Traversals.inorder, line number: 57 
+
+[Test Failure: postorder] [-1.43] : This postorder test was inconclusive due to: java.lang.NullPointerException
+Here is the stack trace to help identify the error in your code:
+	at Traversals.postorder, line number: 81 
+
+[Test Failure: postorder] [-1.43] : This postorder test was inconclusive due to: java.lang.NullPointerException
+Here is the stack trace to help identify the error in your code:
+	at Traversals.preorder, line number: 31
+	at Traversals.preorder, line number: 33
+	at Traversals.preorder, line number: 33
+	at Traversals.preorder, line number: 33
+	at Traversals.postorder, line number: 82 
+
+[Test Failure: treeStructure] [-1.43] : Tree structure could not be validated for the following traversal(s) due to early test failure(s): preorder, postorder, inorder. 
+
+
+Score: 0.0 / 10.0
+============================================================
