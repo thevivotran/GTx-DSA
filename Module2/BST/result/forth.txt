@@ -1,0 +1,70 @@
+[Executed at: Tue Feb 18 22:48:11 PST 2025]
+
+============================================================
+BST.java successfully compiled.
+============================================================
+Tests Passed: 25 / 32
+
+[Test Failure: remove] [-0.31] : NoSuchElementException not thrown when attempting to remove data not in the tree. 
+
+[Test Failure: remove] [-0.31] : This remove test was inconclusive due to: java.util.NoSuchElementException: Data not found in the tree
+Here is the stack trace to help identify the error in your code:
+	at BST.remove, line number: 89 
+
+[Test Failure: remove] [-0.31] : Unexpected content after removing 1 from the tree.
+
++----------------+
+| Initial Tree:  |
+|                |
+|   1            |
+|  /             |
+| 0              |
+|                |
+|                |
+| Expected Tree: |
+|                |
+| 0              |
+|                |
+|                |
+| Actual Tree:   |
+|                |
+|   1            |
+|  /             |
+| 0              |
++----------------+
+ 
+
+[Test Failure: remove] [-0.31] : Unexpected content after removing 0 from the tree.
+
++----------------+
+| Initial Tree:  |
+|                |
+|   0            |
+|      \         |
+|       1        |
+|                |
+|                |
+| Expected Tree: |
+|                |
+| 1              |
+|                |
+|                |
+| Actual Tree:   |
+|                |
+|   0            |
+|      \         |
+|       1        |
++----------------+
+ 
+
+[Test Failure: validSize] [-0.31] : Size variable could not be validated for the following method(s) due to early test failure(s): remove. 
+
+[Test Failure: dataHandling] [-0.31] : If you are failing this test case, that means either:
+	1) You are using == instead of compareTo() or equals() to compare Objects in remove().
+	2) You are returning the passed in data (or some other incorrect data) in remove(). 
+
+[Test Failure: compareTo] [-0.31] : Correct compareTo() usage could not be validated for the following method(s) due to early test failure(s): remove. 
+
+
+Score: 7.81 / 10.0
+============================================================
