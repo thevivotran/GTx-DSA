@@ -1,0 +1,38 @@
+[Executed at: Mon Feb 24 6:34:49 PST 2025]
+
+============================================================
+MinHeap.java successfully compiled.
+============================================================
+Tests Passed: 22 / 29
+
+[Test Failure: add] [-0.34] : This add test was inconclusive due to: java.lang.NullPointerException
+Here is the stack trace to help identify the error in your code:
+	at MinHeap.add, line number: 65 
+
+[Test Failure: add] [-0.34] : Unexpected content after adding 0 to the MinHeap.
+	Before : [null, 7, 14, 21, 28, 35, 42, 49, 56, 63, null, null, null]
+	Expected : [null, 0, 7, 21, 28, 14, 42, 49, 56, 63, 35, null, null]
+	Actual : [null, 7, 14, 21, 28, 35, 42, 49, 56, 63, 0, null, null] 
+
+[Test Failure: add] [-0.34] : Unexpected content after adding 7 to the MinHeap.
+	Before : [null, 0, 14, 21, 28, 35, 42, null, null, null, null, null, null]
+	Expected : [null, 0, 14, 7, 28, 35, 42, 21, null, null, null, null, null]
+	Actual : [null, 0, 14, 21, 28, 35, 42, 7, null, null, null, null, null] 
+
+[Test Failure: add] [-0.34] : Unexpected content after adding 0 to the MinHeap.
+	Before : [null, 7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84]
+	Expected : [null, 0, 14, 7, 28, 35, 21, 49, 56, 63, 70, 77, 84, 42, null, null, null, null, null, null, null, null, null, null, null, null]
+	Actual : [null, 7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 0, null, null, null, null, null, null, null, null, null, null, null, null] 
+
+[Test Failure: add] [-0.34] : Unexpected content after adding 7 to the MinHeap.
+	Before : [null, 0, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84]
+	Expected : [null, 0, 14, 7, 28, 35, 21, 49, 56, 63, 70, 77, 84, 42, null, null, null, null, null, null, null, null, null, null, null, null]
+	Actual : [null, 0, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 7, null, null, null, null, null, null, null, null, null, null, null, null] 
+
+[Test Failure: validSize] [-0.34] : Size variable could not be validated for the following method(s) due to early test failure(s): add. 
+
+[Test Failure: compareTo] [-0.34] : Correct compareTo() usage could not be validated for the following method(s) due to early test failure(s): add. 
+
+
+Score: 7.59 / 10.0
+============================================================
