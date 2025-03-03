@@ -1,0 +1,20 @@
+[Executed at: Fri Feb 28 23:40:07 PST 2025]
+
+============================================================
+ExternalChainingHashMap.java successfully compiled.
+============================================================
+Tests Passed: 21 / 25
+
+[Test Failure: remove] [-0.4] : This remove test was inconclusive due to: java.lang.ArrayIndexOutOfBoundsException: Index -11 out of bounds for length 13
+Here is the stack trace to help identify the error in your code:
+	at ExternalChainingHashMap.remove, line number: 119 
+
+[Test Failure: validSize] [-0.4] : Size variable could not be validated for the following method(s) due to early test failure(s): remove. 
+
+[Test Failure: validData] [-0.4] : Returned data could not be validated for the following method(s) due to early test failure(s): remove. 
+
+[Test Failure: equals] [-0.4] : Correct equals() usage could not be validated for the following method(s) due to early test failure(s): remove. 
+
+
+Score: 8.4 / 10.0
+============================================================
